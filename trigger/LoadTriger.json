@@ -1,0 +1,17 @@
+{
+	"name": "LoadTriger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/faa80d27-a0dc-4cc0-b9be-e4a41565958f/resourceGroups/RG_ADF_PROJECT/providers/Microsoft.Storage/storageAccounts/gang8055sa",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

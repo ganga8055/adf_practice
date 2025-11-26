@@ -1,0 +1,9 @@
+{
+	"name": "gang8055adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a244e30b-9c9e-4d1b-ba06-6cc145585bd6",
+		"tenantId": "73cde8e9-e232-4399-a124-d5a08bf7d0b0"
+	}
+}
