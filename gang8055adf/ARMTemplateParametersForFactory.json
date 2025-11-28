@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "gang8055adf"
+		},
+		"linkedserviceDL_accountKey": {
+			"value": ""
+		},
+		"linkedserviceDL_properties_typeProperties_url": {
+			"value": "https://gang8055sa.dfs.core.windows.net/"
+		},
+		"LoadTriger_properties_typeProperties_scope": {
+			"value": "/subscriptions/faa80d27-a0dc-4cc0-b9be-e4a41565958f/resourceGroups/RG_ADF_PROJECT/providers/Microsoft.Storage/storageAccounts/gang8055sa"
+		}
+	}
+}
